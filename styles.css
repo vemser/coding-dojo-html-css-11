@@ -1,0 +1,24 @@
+:root {
+  --gold: #c9aa71;
+  --secondary-color: #001223;
+  --background: #010a13;
+}
+
+ul {
+    all: unset;
+    list-style: none;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+.header {
+  background: rgb(0, 37, 71);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 37, 71, 1) 0%,
+    rgba(1, 10, 19, 1) 100%
+  );
+}
