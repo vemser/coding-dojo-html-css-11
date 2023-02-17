@@ -5,13 +5,13 @@
 }
 
 ul {
-    all: unset;
-    list-style: none;
+  all: unset;
+  list-style: none;
 }
 
 a {
-    all: unset;
-    cursor: pointer;
+  all: unset;
+  cursor: pointer;
 }
 
 .header {
@@ -21,4 +21,15 @@ a {
     rgba(0, 37, 71, 1) 0%,
     rgba(1, 10, 19, 1) 100%
   );
+}
+.main {
+  background-image: url(./assets/lol-wpp.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.main h2,
+.main p {
+  padding: 5rem;
 }
