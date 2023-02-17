@@ -43,9 +43,3 @@ main {
 .carousel-inner {
   height: 100vh;
 }
-
-@media (max-width: 500px) {
-  iframe {
-    height: 300px !important;
-  }
-}
