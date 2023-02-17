@@ -1,45 +1,49 @@
 :root {
-  --gold: #c9aa71;
-  --secondary-color: #001223;
-  --background: #010a13;
+    --gold: #c9aa71;
+    --secondary-color: #001223;
+    --background: #010a13;
 }
 
 ul {
-  all: unset;
-  list-style: none;
+    all: unset;
+    list-style: none;
 }
 
 a {
-  all: unset;
-  cursor: pointer;
+    all: unset;
+    cursor: pointer;
 }
 
 body {
-  width: 100vw;
-  overflow-x: hidden;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 main {
-  height: 100vh;
+    height: 100vh;
 
-  width: 100%;
+    width: 100%;
 }
 
 .bg-gradient-secondary {
-  background: rgb(0, 37, 71);
-  background: linear-gradient(
-    180deg,
-    rgba(0, 37, 71, 1) 0%,
-    rgba(1, 10, 19, 1) 100%
-  );
+    background: rgb(0, 37, 71);
+    background: linear-gradient(
+        180deg,
+        rgba(0, 37, 71, 1) 0%,
+        rgba(1, 10, 19, 1) 100%
+    );
 }
 
 .what-is-league {
-  background-image: url(./assets/lol-wpp.jpg);
+    background-image: url(./assets/lol-wpp.jpg);
 
-  background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
 
 .carousel-inner {
-  height: 100vh;
+    height: 100vh;
 }
+
+/* @media (min-width: 768px) {
+  
+} */
